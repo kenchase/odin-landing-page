@@ -1,0 +1,123 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+.wrap {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  color: #fff;
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header .logo .logo-text {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header .list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .list a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  color: #fff;
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+.hero-wrap {
+  display: flex;
+  gap: 16px;
+}
+
+.hero .hero-content {
+  flex: 1;
+}
+
+.hero .hero-content .hero-title {
+  margin: 0;
+}
+
+.hero .hero-image {
+  flex: 1;
+}
+
+/* Main */
+
+.main .info {
+  background-color: #fff;
+  margin-bottom: 32px;
+  padding: 16px;
+}
+
+.main .info-wrap {
+}
+
+.info .info-title {
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.info .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.info .items .item {
+  text-align: center;
+  width: 80px;
+}
+
+.info .items .item-img {
+  border: 1px solid blue;
+  border-radius: 8px;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto 4px auto;
+}
+
+.info .items .item-content {
+  color: #999;
+  font-size: 11px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #1f2937;
+  padding: 16px;
+}
