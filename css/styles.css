@@ -1,4 +1,5 @@
 body {
+  background-color: red;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -76,9 +77,6 @@ body {
   background-color: #fff;
   margin-bottom: 32px;
   padding: 16px;
-}
-
-.main .info-wrap {
 }
 
 .info .info-title {
