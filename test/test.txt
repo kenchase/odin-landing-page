@@ -1,1 +1,1 @@
-git restore --staged filename.xyz
+Some Text.
